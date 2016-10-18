@@ -1,0 +1,23 @@
+= include ../includes/top .
+body
+  header
+    h1 {{.msg.Get "Log in"}}
+  main.wrap
+    form.flex method=POST action=/session
+      input type=hidden name=_method value=PUT
+      input type=hidden name=_ratelimit value={{.ratelimit}}
+      .p
+        label {{.msg.Get "Email"}}*
+          input#uid.right type=email name=email autocomplete=username placeholder=email.address@provider.com required=
+      .p
+        label {{.msg.Get "Password"}}*
+          input#pwd.right type=password name=password autocomplete=current-password placeholder=********** required=
+      .p
+        input.right type=submit
+    aside
+      nav
+        ul
+          li
+            a href=/account {{.msg.Get "Sign up"}}
+          li
+            a href=/account/password/token {{.msg.Get "Forgot password"}}

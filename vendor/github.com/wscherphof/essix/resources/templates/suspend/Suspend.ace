@@ -1,0 +1,6 @@
+= include ../includes/top .
+body
+  main
+    .p {{.msg.Get "Suspend successful"}}
+    .p
+      a href=/ {{.msg.Get "Take me home"}}

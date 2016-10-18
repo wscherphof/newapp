@@ -41,5 +41,7 @@ body
             form action=/session method=POST
               input type=hidden name=_method value=DELETE
               input type=submit value={{.msg.Get "Log out"}}
+          li
+            a href=/ {{.msg.Get "Take me home"}}
   footer
-    p {{.msg.Get "Last modified"}}: {{.profile.Modified.Format (Msg "Time format")}}
+    p {{.msg.Get "Last modified"}}: {{.profile.Modified.Format (.msg.Get "Time format")}}

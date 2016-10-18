@@ -1,0 +1,4 @@
+= include ../includes/top .
+body
+  main
+    = yield main

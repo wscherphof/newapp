@@ -2,9 +2,9 @@ package example
 
 import (
 	"github.com/julienschmidt/httprouter"
-	"github.com/wscherphof/newapp/model"
 	"github.com/wscherphof/essix/secure"
 	"github.com/wscherphof/essix/template"
+	"github.com/wscherphof/newapp/model"
 	"net/http"
 	"strings"
 )
@@ -13,6 +13,7 @@ func ProfileForm(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 	account := secure.Authentication(w, r)
 	t := template.GET(w, r, "example", "Profile")
 	if profile := readProfile(w, r, account.ID); profile != nil {
+		t.Set("email", account.Email)
 		t.Set("profile", profile)
 		t.Set("countries", Countries())
 		t.Run()

@@ -1,0 +1,4 @@
+= content account
+  a href=/account {{.msg.Get "Sign up"}}
+= content session
+  a href=/session {{.msg.Get "Log in"}}

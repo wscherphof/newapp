@@ -1,0 +1,5 @@
+= content tail
+  .p
+    a href=/account {{.msg.Get "Sign up"}}
+  .p
+    a href=/account/activate?id={{.id}} {{.msg.Get "Activate account"}}

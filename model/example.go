@@ -32,9 +32,6 @@ func (p *Profile) FullName() (name string) {
 		}
 		name = name + p.LastName
 	}
-	if len(name) == 0 {
-		name = p.Account
-	}
 	return
 }
 
@@ -43,8 +40,6 @@ func (p *Profile) Name() (name string) {
 		name = p.FirstName
 	} else if len(p.LastName) > 0 {
 		name = p.LastName
-	} else {
-		name = p.Account
 	}
 	return
 }

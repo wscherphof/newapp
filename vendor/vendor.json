@@ -1,0 +1,260 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "2avCvSn0XonfApKKuTMyiQmk7s0=",
+			"origin": "github.com/wscherphof/entity/vendor/github.com/Sirupsen/logrus",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "uQzoJ70PJvWwIFPvMeshNTAu3t4=",
+			"origin": "github.com/wscherphof/entity/vendor/github.com/cenk/backoff",
+			"path": "github.com/cenk/backoff",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "qjr2SKQanbmna221z0Ce2n0hnDE=",
+			"origin": "github.com/wscherphof/entity/vendor/github.com/golang/protobuf/proto",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/gorilla/context",
+			"path": "github.com/gorilla/context",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "6/9VW/AyJyjRXLu+nbhqGYvOO2k=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/gorilla/handlers",
+			"path": "github.com/gorilla/handlers",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "veX5bpYOBjZZWMyWxXxys8EH9d8=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/gorilla/securecookie",
+			"path": "github.com/gorilla/securecookie",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "f1dfF3vmO95G/hbwMYlFru/FfMo=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/gorilla/sessions",
+			"path": "github.com/gorilla/sessions",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "O0r0hj4YL+jSRNjnshkeH4GY+4s=",
+			"origin": "github.com/wscherphof/entity/vendor/github.com/hailocab/go-hostpool",
+			"path": "github.com/hailocab/go-hostpool",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "Fs9Xiy7Ilfyd68NRfn6j88etvgI=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/jordan-wright/email",
+			"path": "github.com/jordan-wright/email",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "Drsz3oT4NmM2tVQCRk+occxVvPA=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/julienschmidt/httprouter",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "FQ5l6rMM2Zr3txypifE/vtnqzBc=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/wscherphof/certs",
+			"path": "github.com/wscherphof/certs",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "Kcqz8LeF6T3R3SGNS3n+me+EsUU=",
+			"path": "github.com/wscherphof/entity",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "QlYuFD+iOr7Asvb/KOT9PrFGczE=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/wscherphof/env",
+			"path": "github.com/wscherphof/env",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "611n+qKbT4kWSomywCWugAL8pvg=",
+			"path": "github.com/wscherphof/essix/email",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "F+zxdY8Em1OtTximNk+khi6VsH4=",
+			"path": "github.com/wscherphof/essix/messages",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "akZWevKGujEXDhs6P8PHMlORinE=",
+			"path": "github.com/wscherphof/essix/model",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "k0UqRksa7/vwGI2/U689v61ZVkI=",
+			"path": "github.com/wscherphof/essix/ratelimit",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "UK+TAmBSc7WDk/PgOZ+/kB9qej8=",
+			"path": "github.com/wscherphof/essix/router",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "7PSGH1ghMr1sz6cV/J3+17hr0Pk=",
+			"path": "github.com/wscherphof/essix/routes",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "0po6J1AvVRrOrjWeS3B/aP1SBrc=",
+			"path": "github.com/wscherphof/essix/routes/account",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "Pe0wXPZQx72RFXl5br8GG1o93Zg=",
+			"path": "github.com/wscherphof/essix/secure",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "CC/wF0WOmDe+E+9gamutdz/laQ8=",
+			"path": "github.com/wscherphof/essix/server",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "QJlU1F2CvS9N2WV0Q5aP76zUGQU=",
+			"path": "github.com/wscherphof/essix/server/bootstrap",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "/lTs1TzdHG9tFAiFrYWlnZi0rAE=",
+			"path": "github.com/wscherphof/essix/template",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "THxSO2soajTXk5KKvTgQkLNVVXM=",
+			"path": "github.com/wscherphof/essix/util",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "ZjIxVifXaZ3qavHhYAvIQRFx+dY=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/wscherphof/msg",
+			"path": "github.com/wscherphof/msg",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "HAT72uD746MEVq/6H+rsdDKPUJg=",
+			"origin": "github.com/wscherphof/entity/vendor/github.com/wscherphof/rethinkdb",
+			"path": "github.com/wscherphof/rethinkdb",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "7l9hIMv/i8jtDLw3wgq6pElQ4mc=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/wscherphof/secure",
+			"path": "github.com/wscherphof/secure",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "EBdlrNruUlsU7XyA777y8Jp7LEU=",
+			"origin": "github.com/wscherphof/essix/vendor/github.com/yosssi/ace",
+			"path": "github.com/yosssi/ace",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "vE43s37+4CJ2CDU6TlOUOYE0K9c=",
+			"origin": "github.com/wscherphof/essix/vendor/golang.org/x/crypto/bcrypt",
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "JsJdKXhz87gWenMwBeejTOeNE7k=",
+			"origin": "github.com/wscherphof/essix/vendor/golang.org/x/crypto/blowfish",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "2734d6f15781c0d2c2e895a44bcd88c850ee6296",
+			"revisionTime": "2016-10-18T22:44:23Z"
+		},
+		{
+			"checksumSHA1": "1MGpGDQqnUoRpv7VEcQrXOBydXE=",
+			"origin": "github.com/wscherphof/entity/vendor/golang.org/x/crypto/pbkdf2",
+			"path": "golang.org/x/crypto/pbkdf2",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "vu7njn8O4vhFtmgGWntwjA2NAbk=",
+			"origin": "github.com/wscherphof/entity/vendor/golang.org/x/sys/unix",
+			"path": "golang.org/x/sys/unix",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "3pCF5pACsyUkXP2NMulNXyfGoBY=",
+			"origin": "github.com/wscherphof/entity/vendor/gopkg.in/dancannon/gorethink.v2",
+			"path": "gopkg.in/dancannon/gorethink.v2",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "N5RTTLfsBGd3eIIP8xVWQJYu3XU=",
+			"origin": "github.com/wscherphof/entity/vendor/gopkg.in/dancannon/gorethink.v2/encoding",
+			"path": "gopkg.in/dancannon/gorethink.v2/encoding",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "fjbclzTrJJT+pawuU3idWDX1Bws=",
+			"origin": "github.com/wscherphof/entity/vendor/gopkg.in/dancannon/gorethink.v2/ql2",
+			"path": "gopkg.in/dancannon/gorethink.v2/ql2",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "6bj8J83HYu6fYqwpwRbHAOQ6Leo=",
+			"origin": "github.com/wscherphof/entity/vendor/gopkg.in/dancannon/gorethink.v2/types",
+			"path": "gopkg.in/dancannon/gorethink.v2/types",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		},
+		{
+			"checksumSHA1": "412N7e7+ueRP9ej8IOl5khpYyoY=",
+			"origin": "github.com/wscherphof/entity/vendor/gopkg.in/fatih/pool.v2",
+			"path": "gopkg.in/fatih/pool.v2",
+			"revision": "4a0d36001c38de41fa5e9ad388dfc9d9251da6f3",
+			"revisionTime": "2016-10-17T09:29:54Z"
+		}
+	],
+	"rootPath": "github.com/wscherphof/newapp"
+}

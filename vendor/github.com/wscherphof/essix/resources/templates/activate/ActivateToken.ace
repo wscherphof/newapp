@@ -1,0 +1,10 @@
+= include ../includes/top .
+body
+  main
+    .p..
+      {{.msg.Get "Resend successful"}}
+      {{.msg.Get .message}}
+    .p
+      a href=/account/activate?id={{.id}} {{.msg.Get "Activate account"}}
+    .p
+      a href=/ {{.msg.Get "Take me home"}}
